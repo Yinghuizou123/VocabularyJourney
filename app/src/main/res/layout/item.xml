@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/itemimage"
+
+        android:layout_below="@+id/itemexample"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/itemtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="#333030"
+        android:textSize="17sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/itemexample"
+        android:layout_alignStart="@+id/itemexample" />
+
+    <TextView
+        android:id="@+id/itemdefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place"
+        android:textAlignment="center"
+        android:textColor="#333030"
+        android:textSize="17sp"
+
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/itemtitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/itemexample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textColor="#333030"
+        android:textSize="17sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/itemdefinition"
+        android:layout_alignLeft="@+id/itemdefinition"
+        android:layout_alignStart="@+id/itemdefinition" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:layout_alignBaseline="@+id/itemtitle"
+        android:layout_alignBottom="@+id/itemtitle"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemtitle"
+        android:layout_alignBottom="@+id/itemtitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Defination:"
+        android:layout_alignBaseline="@+id/itemdefinition"
+        android:layout_alignBottom="@+id/itemdefinition"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemdefinition"
+        android:layout_alignBottom="@+id/itemdefinition"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Defination:" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example:"
+        android:layout_alignTop="@+id/itemexample"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/itemexample"
+        android:text="Example:" />
+
+
+</RelativeLayout>
